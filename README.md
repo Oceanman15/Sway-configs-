@@ -23,6 +23,16 @@ Firefox ricing:
 }
 
 changing the colours to guvbox in the userContent.css: 
+(this is still the defaults, not gruvbox, edit the colour scheme at a later date)
+/* This theoretically should make it so that you can just change the colors from here */
+body {
+  --main-color: #1a1a1a;
+  --private-main-color: #261010; /* This one does not work for some reason*/
+  --main-accent-color: #b24747;
+  --glow-color: #993d3d;
+  --newtab-textbox-background-color: var(--main-accent-color);
+}
+
 
 
 
