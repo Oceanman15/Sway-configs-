@@ -33,6 +33,8 @@ body {
   --newtab-textbox-background-color: var(--main-accent-color);
 }
 
+-wdisplay as gui replacement for Arandr. 
+
 
 
 
