@@ -34,6 +34,7 @@ body {
 }
 
 -wdisplay as gui replacement for Arandr. 
+-snaps: put this: systemctl enable snapd into the .zshrc file. 
 
 
 
