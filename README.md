@@ -23,6 +23,7 @@ Stuff which i have added:
 -python pip install needs to be installed for some stuff to work.
 -nwg autotiling and dock. 
 
+gtop installed
 
 
 
