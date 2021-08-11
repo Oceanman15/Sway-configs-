@@ -22,6 +22,7 @@ Stuff which i have added:
 -snaps: put this: #sudo apparmor_parser -r /var/lib/snapd/apparmor/profiles/* into the .zshrc file. enable when needed. 
 -python pip install needs to be installed for some stuff to work.
 -nwg autotiling and dock. 
+-the whole nwg project. 
 
 gtop installed
 
