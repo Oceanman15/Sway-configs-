@@ -1,11 +1,12 @@
 * {
   min-height: 20px;
-  font-size: 12px;
+  font-size: 15px;
   /* `otf-font-awesome` is required to be installed for icons */
   font-family: "otf-font-awesome", "JetBrainsMono Nerd Font";
   border: 2px;
   border-radius: 0.0rem;
   /*font-weight: bold;*/
+   min-width:  3px;
 }
 
 .horizontal {
@@ -31,7 +32,7 @@ window#waybar.hidden {
 
 #workspaces button {
   margin: 0px 2px;
-  padding: 0.5rem;
+  padding: 0.4rem;
   background: #2b2724;
   color: #cc9d80;
 
@@ -58,6 +59,7 @@ window#waybar.hidden {
     background-color: #64727D;
     border-bottom: 3px solid #ffffff;
 }
+
 
 #clock,
 #battery,
@@ -117,6 +119,7 @@ label:focus {
 #cpu {
     background-color: #2b2724;
     color: #cc9d80;
+   border-radius: 5px 0px 0px 5px;
 }
 
 #memory {
@@ -178,18 +181,20 @@ label:focus {
 #idle_inhibitor {
    background-color: #2b2724;
    color: #cc9d80;
-   border-radius: 5px 0px 0px 5px;
+   border-radius: 0px 5px 5px 0px;
 }
 
 #idle_inhibitor.activated {
    background-color: #2b2724;
    color: #cc9d80;
-   border-radius: 5px 0px 0px 5px;
+   border-radius: 0px 5px 5px 0px;
 }
 
 #bluetooth{
  background-color: #2b2724;
  color: #cc9d80;
+ border-radius: 5px 0px 0px 5px;
 }
+
 
 
