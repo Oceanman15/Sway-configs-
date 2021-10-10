@@ -69,7 +69,9 @@ window#waybar.hidden {
 #backlight,
 #network,
 #pulseaudio,
+#custom-alsa,
 #custom-media,
+#custom-menu
 #tray,
 #mode,
 #idle_inhibitor,
@@ -117,9 +119,8 @@ label:focus {
 }
 
 #cpu {
-    background-color: #2b2724;
+   background-color: #2b2724;
     color: #cc9d80;
-   border-radius: 5px 0px 0px 5px;
 }
 
 #memory {
@@ -150,6 +151,17 @@ label:focus {
     background-color: #2b2724;
     color: #2a5c45;
 }
+
+#custom-alsa {
+    background-color: #2b2724;
+    color: #cc9d80;
+}
+
+#custom-alsa.muted {
+    background-color: #2b2724;
+    color: #2a5c45;
+}
+	
 
 #custom-media {
     background-color: #2b2724;
@@ -194,7 +206,12 @@ label:focus {
  background-color: #2b2724;
  color: #cc9d80;
  border-radius: 5px 0px 0px 5px;
+ min-width: 11.5px;
 }
 
-
-
+#custom-menu{
+ background-color: #2b2724;
+    color: #cc9d80;
+   border-radius: 5px 0px 0px 5px;
+    min-width: 30px;
+}
