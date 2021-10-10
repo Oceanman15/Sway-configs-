@@ -1,5 +1,5 @@
 #Config for sway
-#
+#make a .config/sway/ directory and touch .config/sway/config to create the file for sway to read:
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
 # Read `man 5 sway` for a complete reference.
